@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1660764141 source:d:\aerospace engineering\summer projects\amit course\amit asg_ans\asg_4-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
