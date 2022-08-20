@@ -15,9 +15,7 @@ void Print(struct data *arr)
     for(int i = 0; i < 5; i++)
     {
         printf("Student %d", i+1);
-        printf("\n\nName\t: ");
-        for(int j = 0; j < strlen((arr+i)->Name); j++)
-        printf("%c", (arr+i)->Name[j]);
+        printf("\n\nName\t: %s",(arr+i)->Name);
         printf("\nAge\t: %d", (arr+i)->Age);
         printf("\nDegree\t: %d", (arr+i)->Degree);
         printf("\nSection\t: %d", (arr+i)->Section);
