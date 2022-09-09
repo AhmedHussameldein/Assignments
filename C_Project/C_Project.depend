@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1661781534 source:d:\aerospace engineering\summer projects\amit course\amit projects\code blocks projects\workshop\c_project\main.c
+	<stdio.h>
+	"TodoList.h"
+	"STD_Types.h"
+	"TodoList.c"
+
+1661456359 d:\aerospace engineering\summer projects\amit course\amit projects\code blocks projects\workshop\c_project\todolist.h
+	"STD_Types.h"
+
+1661456316 d:\aerospace engineering\summer projects\amit course\amit projects\code blocks projects\workshop\c_project\std_types.h
+
+1661506714 d:\aerospace engineering\summer projects\amit course\amit projects\code blocks projects\workshop\c_project\todolist.c
+
