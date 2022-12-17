@@ -2,12 +2,14 @@
 #define TODOLIST_H_INCLUDED
 
 #include"STD_Types.h"
+#include <conio.h>
 
 u8 counter = 0, x;
 u8 year;
 u8 subject[3];
 u8 grades[3];
 u8 List[10] = {0};
+FILE *F_PTR;
 
 
 typedef struct Student

@@ -112,6 +112,7 @@ int main()
 
         else if(x == 8)
         {
+            fclose(F_PTR);
             printf("\nThe program is closed.\nI hope it was useful for you\n");
             return 0;
         }

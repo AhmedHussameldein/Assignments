@@ -38,6 +38,9 @@ _Bool SDB_AddEntry(u8 id, u8 year, u8* subject, u8* grades)
 //        temp->next = SD;
 //    }
 
+    F_PTR = fopen("Data_File","w");
+    fwrite(SD, sizeof(Student),10,F_PTR);
+
      counter++;
 
     return 1;
